@@ -24,7 +24,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:alpha="1.0"></za.co.astroweb.remotepopup.PopupViewOverlay>
+        android:visibility="gone"></za.co.astroweb.remotepopup.PopupViewOverlay>
 
 
     <RelativeLayout

@@ -4,14 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="100"
-    android:background="@android:color/transparent"
-    android:id="@+id/overlayViewHolder"
-    android:alpha="0.5">
+    android:background="#B3000000"
+    android:id="@+id/overlayViewHolder">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="25"
+        android:layout_weight="15"
         android:gravity="top"
         android:background="@android:color/transparent">
 
@@ -46,7 +45,7 @@
         android:id="@+id/imagesRecycleView"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="50"
+        android:layout_weight="60"
         android:layout_gravity="center"
         android:layoutAnimation="@anim/layout_animation_fall_down"
         android:background="@android:color/transparent"/>
